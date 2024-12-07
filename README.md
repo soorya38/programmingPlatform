@@ -91,3 +91,17 @@ Admin Frontend: http://localhost:5173
 Client Frontend: http://localhost:5173
 Backend: http://localhost:3000
 Code Execution Engine: http://localhost:8080
+
+
+![image](https://github.com/user-attachments/assets/7a77ce13-b98f-4287-99d7-22ee86e34f08)
+![image](https://github.com/user-attachments/assets/826a067b-78b6-496b-b256-535bc1b04d78)
+![image](https://github.com/user-attachments/assets/be38d7d3-6ae0-47e6-be7c-a65e1f0cce21)
+![image](https://github.com/user-attachments/assets/0df9370f-d407-4d2b-9355-2b7b2bc9c14c)
+![image](https://github.com/user-attachments/assets/7731fc26-f6a9-4f67-af38-4cb05e79a56b)
+![image](https://github.com/user-attachments/assets/a780a24f-eee4-45e8-86a8-c4fecf2a5674)
+
+
+
+
+
+
