@@ -3,18 +3,14 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/student-profile';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://questionPaper:questionPaper@questionpaper.2vd9z.mongodb.net/student-profile?retryWrites=true&w=majority&appName=questionPaper';
 
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      serverSelectionTimeoutMS: 30000,
-      socketTimeoutMS: 30000,
-      connectTimeoutMS: 30000,
-      keepAlive: true,
-      keepAliveInitialDelay: 300000
+      serverSelectionTimeoutMS: 5000,  // Time to wait for server to respond
+      socketTimeoutMS: 5000,           // Socket timeout duration
+      connectTimeoutMS: 5000,          // Connection timeout duration
     });
 
     console.log(`MongoDB Connected: ${conn.connection.host}`);

@@ -60,3 +60,5 @@ const studentSchema = new mongoose.Schema({
     }
   }
 });
+
+export default studentSchema;
